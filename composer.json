@@ -1,0 +1,27 @@
+{
+  "name": "craigh/imap-cache-manager",
+  "description": "Provides caching support for imap-mail-manager",
+  "type": "package",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Craig Humphreys",
+      "email": "craig_h_411@yahoo.co.uk"
+    }
+  ],
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "craigh\imap-mail-manager": "dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "Humps\\ImapCacheManager\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Humps\\ImapCacheManager\\Tests\\": "tests"
+    }
+  }
+}
