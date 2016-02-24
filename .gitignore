@@ -1,1 +1,4 @@
 /.idea
+/vendor
+/examples/imap_config
+/examples/caching
